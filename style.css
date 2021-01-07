@@ -1,0 +1,135 @@
+.jumbotron{
+    background-image: url(jumbotron.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.display-4{
+    font-weight: bold;
+}
+
+
+
+.inovation img{
+    width: 250px;
+}
+
+.tombl{
+    border-radius: 30px;
+    color: white;
+}
+
+
+.inovate img{
+    width: 250px;
+}
+
+.kedua{
+    margin-top: 10px;
+}
+
+.card{
+    width: 250px;
+    margin-top: 9px;
+    background-color: lightgrey;
+}
+
+.gambar img{
+    width: 200px;
+    height: 200px;
+    margin-top: 8px;
+}
+
+.gambar h3{
+    margin-left: 0px;
+}
+
+.tombl2{
+    border-radius: 30px;
+    margin-left: 0px;
+}
+
+.solution{
+    background-color: orange;
+}
+
+.solution h3{
+    font-weight: bold;
+    color: white;
+}
+
+/* About US */
+.about{
+    margin-top: 100px;
+    background-color: grey;
+    height: 600px;
+}
+
+.solution button{
+    color: white;
+    background: transparent;
+}
+
+.footer h3{
+    font-weight: bold;
+}
+
+.footer h3{
+    font-weight: bold;
+}
+
+.footer ul li{
+    list-style: none;
+}
+/* Desktop Version */
+@media(min-width:992px){
+    .jumbotron{
+        background-image: url(jumbotron.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 500px;
+        margin-top: -57px;
+    }
+
+    .about{
+        margin-top: 100px;
+        background-color: lightgray;
+        height: 250px;
+    }
+
+    .inovation img{
+        width: 500px;
+        margin-left: 30px;
+    }
+    
+    .inovate img{
+        width: 350px;
+    }
+
+    .kedua{
+        margin-top: -100px;
+    }
+
+    .gambar h3{
+        margin-left: -100px;
+    }
+    
+    .tombl2{
+        border-radius: 30px;
+        margin-left: -100px;
+    }
+
+    .solution button{
+        color: white;
+        background: transparent;
+    }
+
+    .footer h3{
+        font-weight: bold;
+    }
+
+    .footer ul li{
+        list-style: none;
+    }
+}
